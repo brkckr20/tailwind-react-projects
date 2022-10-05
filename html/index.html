@@ -10,6 +10,7 @@
 </head>
 
 <body class="w-full min-h-screen bg-slate-200">
+    <!-- HEADER -->
     <div class="max-w-[1470px] mx-auto h-14 mt-10 flex flex-row items-center justify-between">
         <div class="flex items-center">
             <div class="w-12 h-12 bg-white rounded-full flex items-center justify-center mr-6">
@@ -43,7 +44,7 @@
         <div class="flex items-center relative">
             <div>
                 <input type="text"
-                    class="w-[300px] h-[50px] outline-none pl-2 rounded-3xl placeholder:text-[#ADB8CC] text-xs"
+                    class="w-[300px] h-[50px] outline-none pl-4 rounded-3xl placeholder:text-[#ADB8CC] text-xs"
                     placeholder="Tryin Search...">
             </div>
             <div class="absolute right-3">
@@ -55,8 +56,8 @@
 
             </div>
         </div>
-        <div>
-            <div class="w-[50px] h-[50px] bg-purple-300 flex items-center justify-center rounded-full relative">
+        <div class="flex items-center gap-x-5">
+            <div class="w-[50px] h-[50px] bg-purple-300 flex items-center justify-center rounded-full relative mr-5">
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
                     stroke="currentColor" class="w-6 h-6 fill-purple-800 stroke-purple-800">
                     <path stroke-linecap="round" stroke-linejoin="round"
@@ -68,8 +69,84 @@
                 </div>
 
             </div>
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                    stroke="currentColor" class="w-6 h-6 stroke-gray-500">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                        d="M8.625 9.75a.375.375 0 11-.75 0 .375.375 0 01.75 0zm0 0H8.25m4.125 0a.375.375 0 11-.75 0 .375.375 0 01.75 0zm0 0H12m4.125 0a.375.375 0 11-.75 0 .375.375 0 01.75 0zm0 0h-.375m-13.5 3.01c0 1.6 1.123 2.994 2.707 3.227 1.087.16 2.185.283 3.293.369V21l4.184-4.183a1.14 1.14 0 01.778-.332 48.294 48.294 0 005.83-.498c1.585-.233 2.708-1.626 2.708-3.228V6.741c0-1.602-1.123-2.995-2.707-3.228A48.394 48.394 0 0012 3c-2.392 0-4.744.175-7.043.513C3.373 3.746 2.25 5.14 2.25 6.741v6.018z" />
+                </svg>
+
+            </div>
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                    stroke="currentColor" class="w-6 h-6 stroke-gray-500">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                        d="M15 19.128a9.38 9.38 0 002.625.372 9.337 9.337 0 004.121-.952 4.125 4.125 0 00-7.533-2.493M15 19.128v-.003c0-1.113-.285-2.16-.786-3.07M15 19.128v.106A12.318 12.318 0 018.624 21c-2.331 0-4.512-.645-6.374-1.766l-.001-.109a6.375 6.375 0 0111.964-3.07M12 6.375a3.375 3.375 0 11-6.75 0 3.375 3.375 0 016.75 0zm8.25 2.25a2.625 2.625 0 11-5.25 0 2.625 2.625 0 015.25 0z" />
+                </svg>
+            </div>
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                    stroke="currentColor" class="w-6 h-6 stroke-gray-500">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                        d="M7.5 14.25v2.25m3-4.5v4.5m3-6.75v6.75m3-9v9M6 20.25h12A2.25 2.25 0 0020.25 18V6A2.25 2.25 0 0018 3.75H6A2.25 2.25 0 003.75 6v12A2.25 2.25 0 006 20.25z" />
+                </svg>
+
+            </div>
         </div>
     </div>
+    <!-- END HEADER -->
+
+    <!-- CONTENT -->
+    <div class="max-w-[1470px] mx-auto flex gap-x-7 mt-10">
+        <!-- sidebar -->
+        <div class="w-80 border border-gray-300 rounded-2xl p-4">
+            <ul>
+                <li class="flex justify-between mb-1 p-3">
+                    <div class="flex items-center gap-x-5">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                            stroke="currentColor" class="w-7 h-7 text-[#FF6633]">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M10.5 6h9.75M10.5 6a1.5 1.5 0 11-3 0m3 0a1.5 1.5 0 10-3 0M3.75 6H7.5m3 12h9.75m-9.75 0a1.5 1.5 0 01-3 0m3 0a1.5 1.5 0 00-3 0m-3.75 0H7.5m9-6h3.75m-3.75 0a1.5 1.5 0 01-3 0m3 0a1.5 1.5 0 00-3 0m-9.75 0h9.75" />
+                        </svg>
+                        <h1 class="text-xs font-bold">Dashboard</h1>
+                    </div>
+                    <div class="flex items-center gap-x-5">
+                        <h1 class="text-xs font-bold text-[#6B7A99]">1</h1>
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                            stroke="currentColor" class="w-6 h-6 text-[#C3CAD9]">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+                        </svg>
+                    </div>
+                </li>
+                <li class="flex justify-between bg-[#8833FF] p-3 rounded-2xl">
+                    <div class="flex items-center gap-x-5">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                            stroke="currentColor" class="w-6 h-6 stroke-white">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M12 6.042A8.967 8.967 0 006 3.75c-1.052 0-2.062.18-3 .512v14.25A8.987 8.987 0 016 18c2.305 0 4.408.867 6 2.292m0-14.25a8.966 8.966 0 016-2.292c1.052 0 2.062.18 3 .512v14.25A8.987 8.987 0 0018 18a8.967 8.967 0 00-6 2.292m0-14.25v14.25" />
+                        </svg>
+
+                        <h1 class="text-xs font-bold text-white">Pages</h1>
+                    </div>
+                    <div class="flex items-center gap-x-5">
+                        <span class="text-xs font-bold text-[#6B7A99] inline-flex w-5 h-5 bg-[#9D5CFA] items-center justify-center rounded-full text-white">3</span>
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                            stroke="currentColor" class="w-6 h-6 text-[#C3CAD9]">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+                        </svg>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <!-- end sidebar -->
+
+        <!-- content -->
+        <div>
+            content
+        </div>
+        <!-- end content -->
+    </div>
+    <!-- END CONTENT -->
 </body>
 
 </html>
