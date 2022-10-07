@@ -2,6 +2,7 @@ import React from 'react'
 import Destinations from './components/Destinations'
 import Hero from './components/Hero'
 import Navbar from './components/Navbar'
+import Search from './components/Search'
 
 const App = () => {
   return (
@@ -9,6 +10,7 @@ const App = () => {
       <Navbar />
       <Hero />
       <Destinations />
+      <Search />
     </div>
   )
 }

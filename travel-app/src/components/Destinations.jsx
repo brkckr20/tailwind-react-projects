@@ -5,7 +5,6 @@ import BoraBora2 from '../assets/borabora2.jpg';
 import keywest from '../assets/keywest.jpg';
 import maldives from '../assets/maldives.jpg';
 import maldives2 from '../assets/maldives2.jpg';
-import maldives3 from '../assets/maldives3.jpg';
 
 const Destinations = () => {
     return (
