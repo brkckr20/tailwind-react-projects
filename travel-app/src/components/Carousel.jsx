@@ -28,7 +28,7 @@ const Carousel = () => {
     }
 
     return (
-        <div className='max-w-[1240px] max-auto px-4 py-16 relative flex justify-center items-center'>
+        <div className='max-w-[1240px] mx-auto px-4 py-16 relative flex justify-center items-center'>
             <span className="absolute top-[50%] text-3xl cursor-pointer text-white left-8" onClick={prevSlide}>
                 <ArrowLeft />
             </span>
