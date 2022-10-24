@@ -18,7 +18,7 @@ const MenuIcon = ({ size }) => {
 
 const UserIcon = ({ size }) => {
     return (
-        <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" width={size} height={size} xmlns="http://www.w3.org/2000/svg">
+        <svg stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 512 512" width={size} height={size} xmlns="http://www.w3.org/2000/svg">
             <path d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z" />
         </svg>
     )
@@ -28,7 +28,7 @@ const UserIcon = ({ size }) => {
 
 const SearchIcon = ({ size }) => {
     return (
-        <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" width={size} height={size} xmlns="http://www.w3.org/2000/svg">
+        <svg stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 512 512" width={size} height={size} xmlns="http://www.w3.org/2000/svg">
             <path d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z" />
         </svg>
     )
@@ -36,7 +36,7 @@ const SearchIcon = ({ size }) => {
 
 const CartIcon = ({ size }) => {
     return (
-        <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 640 512" width={size} height={size} xmlns="http://www.w3.org/2000/svg"><path d="M423.3 440.7c0 25.3-20.3 45.6-45.6 45.6s-45.8-20.3-45.8-45.6 20.6-45.8 45.8-45.8c25.4 0 45.6 20.5 45.6 45.8zm-253.9-45.8c-25.3 0-45.6 20.6-45.6 45.8s20.3 45.6 45.6 45.6 45.8-20.3 45.8-45.6-20.5-45.8-45.8-45.8zm291.7-270C158.9 124.9 81.9 112.1 0 25.7c34.4 51.7 53.3 148.9 373.1 144.2 333.3-5 130 86.1 70.8 188.9 186.7-166.7 319.4-233.9 17.2-233.9z"></path></svg>
+        <svg stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 640 512" width={size} height={size} xmlns="http://www.w3.org/2000/svg"><path d="M423.3 440.7c0 25.3-20.3 45.6-45.6 45.6s-45.8-20.3-45.8-45.6 20.6-45.8 45.8-45.8c25.4 0 45.6 20.5 45.6 45.8zm-253.9-45.8c-25.3 0-45.6 20.6-45.6 45.8s20.3 45.6 45.6 45.6 45.8-20.3 45.8-45.6-20.5-45.8-45.8-45.8zm291.7-270C158.9 124.9 81.9 112.1 0 25.7c34.4 51.7 53.3 148.9 373.1 144.2 333.3-5 130 86.1 70.8 188.9 186.7-166.7 319.4-233.9 17.2-233.9z"></path></svg>
     )
 }
 
@@ -145,11 +145,11 @@ const Icon = ({ name, size = 24 }) => {
         close: CloseIcon,
         truck: TruckIcon,
         hearth: HearthIcon,
-        wallet : WalletIcon,
-        help : HelpIcon,
-        tag : TagIcon,
-        save : SaveIcon,
-        userplus : UserPlusIcon
+        wallet: WalletIcon,
+        help: HelpIcon,
+        tag: TagIcon,
+        save: SaveIcon,
+        userplus: UserPlusIcon
     }
 
     const Component = icons[name];
